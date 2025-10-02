@@ -12,7 +12,7 @@ Results
 Shows good accuracy in predicting emission levels.
 
 License
-This project is licensed under the MIT License. See the LICENSE 
+This project is licensed under the MIT License. See the LICENSE  
  file for details.
 
 Contact
