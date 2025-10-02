@@ -3,7 +3,7 @@ Overview
 A machine learning model that predicts CO2 emissions using factors like fuel consumption and vehicle type. It helps individuals and organizations track and reduce their carbon footprint for a greener future.
 
 Data
-Uses multiple features like vehicle and fuel data to make predictions.
+Uses multiple features like vehicle and fuel data to make predictions. You can get the dataset at CO2 Emissions_Canada.csv
 
 Model
 Built using [Ridge Linear Model] to estimate CO2 emissions.
