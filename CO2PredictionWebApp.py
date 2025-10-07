@@ -9,9 +9,11 @@ import numpy as np
 import pandas as pd
 import pickle 
 import streamlit as st
+import cloudpickle
 
-
-loaded_model = pickle.load(open("C02_model.sav", 'rb'))
+with open("C02_model.sav", "rb") as f:
+    loaded_model = cloudpickle.load(f)
+    
 def co2(features):
 
     feature_names = ['Make', 'Model', 'Vehicle Class', 'Engine Size(L)', 'Cylinders',
@@ -52,3 +54,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
