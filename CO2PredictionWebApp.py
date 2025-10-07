@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model = pickle.load(open("C:/Users/Muizzah/Documents/My TechSpace/Models/CO2 Emission/C02_model.sav", 'rb'))
+loaded_model = pickle.load(open("C02_model.sav", 'rb'))
 def co2(features):
 
     feature_names = ['Make', 'Model', 'Vehicle Class', 'Engine Size(L)', 'Cylinders',
@@ -50,4 +50,5 @@ def main():
     
 
 if __name__ == '__main__':
+
     main()
