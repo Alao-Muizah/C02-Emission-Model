@@ -6,8 +6,8 @@ Or download it here, Dataset Name : CO2 Emissions_Canada.csv
 
 Model Built using [Ridge Linear Model] to estimate CO2 emissions.
 
-Results Shows good accuracy in predicting emission levels.
+Results : Shows good accuracy in predicting emission levels.
 
-License This project is licensed under the MIT License.
+License : This project is licensed under the MIT License.
 
-Contact For questions, reach me at [muizahalao@gmail.com].
+Contact : For questions, reach me at [muizahalao@gmail.com].
