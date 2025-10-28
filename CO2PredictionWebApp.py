@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import Ridge
 import streamlit as st
+import cloudpickle
 
 
 with open("C02_model.sav", "rb") as f:
@@ -53,6 +54,7 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
 
