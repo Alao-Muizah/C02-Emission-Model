@@ -4,12 +4,12 @@ Created on Mon Oct  6 12:41:23 2025
 
 @author: Muizzah
 """
-
-import numpy as np
 import pandas as pd
-import pickle 
+import numpy as np
+import sklearn
+import xgboost
 import streamlit as st
-import cloudpickle
+
 
 with open("C02_model.sav", "rb") as f:
     loaded_model = cloudpickle.load(f)
@@ -54,4 +54,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
