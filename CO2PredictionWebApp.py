@@ -6,8 +6,7 @@ Created on Mon Oct  6 12:41:23 2025
 """
 import pandas as pd
 import numpy as np
-import sklearn
-import xgboost
+from sklearn.linear_model import Ridge
 import streamlit as st
 
 
@@ -54,5 +53,6 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
