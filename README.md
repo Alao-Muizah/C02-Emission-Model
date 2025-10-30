@@ -8,6 +8,8 @@ Model Built using [Ridge Linear Model] to estimate CO2 emissions.
 
 Results : Shows good accuracy in predicting emission levels.
 
+Deployed with Streamlit Cloud : https://c02-emission-model-haziumxyz.streamlit.app/
+
 License : This project is licensed under the MIT License.
 
 Contact : For questions, reach me at [muizahalao@gmail.com].
