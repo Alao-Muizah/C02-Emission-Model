@@ -20,8 +20,11 @@ Evaluated performance using R², MAE, and RMSE to assess accuracy and error beha
 
 # Model Evaluation
 R² = 0.99 → Explains 99.2% of emission variability
+
 MAE ≈ 2.77 g/km → Very low average prediction error
+
 RMSE ≈ 4.41 g/km → Strong consistency with minimal outliers
+
 Typical vehicle CO₂ emissions range from 100–400 g/km, making these errors very small.
 
 # Dataset : CO2 Emissions_Canada.csv
